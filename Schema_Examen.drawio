@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T19:22:28.171Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.22" etag="oMQBf0ic3yjawap6d9nh" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-28T23:27:16.853Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TPpZDr3_XA5qrgIDZcVP" version="23.0.2" type="github">
   <diagram name="Page-1" id="skVKFUmh7Q1YnFiJwnqI">
-    <mxGraphModel>
+    <mxGraphModel dx="1167" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UZetojyLB-9DZRHoAXMX-2" value="Firma curierat" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="140" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UZetojyLB-9DZRHoAXMX-3" value="rute" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="720" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UZetojyLB-9DZRHoAXMX-4" value="curier" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="510" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UZetojyLB-9DZRHoAXMX-5" value="colet" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="300" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UZetojyLB-9DZRHoAXMX-6" value="formular" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UZetojyLB-9DZRHoAXMX-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UZetojyLB-9DZRHoAXMX-6" target="UZetojyLB-9DZRHoAXMX-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="370" y="460" as="sourcePoint" />
+            <mxPoint x="470" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZetojyLB-9DZRHoAXMX-8" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" edge="1" parent="1" source="UZetojyLB-9DZRHoAXMX-4" target="UZetojyLB-9DZRHoAXMX-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="370" y="460" as="sourcePoint" />
+            <mxPoint x="470" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZetojyLB-9DZRHoAXMX-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UZetojyLB-9DZRHoAXMX-4" target="UZetojyLB-9DZRHoAXMX-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="550" y="460" as="sourcePoint" />
+            <mxPoint x="650" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZetojyLB-9DZRHoAXMX-10" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=0.96;exitY=0.698;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UZetojyLB-9DZRHoAXMX-4" target="UZetojyLB-9DZRHoAXMX-12">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="550" y="460" as="sourcePoint" />
+            <mxPoint x="680" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZetojyLB-9DZRHoAXMX-11" value="evidenta_combustibil" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="930" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UZetojyLB-9DZRHoAXMX-12" value="masina" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="720" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UZetojyLB-9DZRHoAXMX-13" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;" edge="1" parent="1" source="UZetojyLB-9DZRHoAXMX-12" target="UZetojyLB-9DZRHoAXMX-11">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="910" y="460" as="sourcePoint" />
+            <mxPoint x="1010" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZetojyLB-9DZRHoAXMX-14" value="colet_livrat" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="920" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UZetojyLB-9DZRHoAXMX-15" value="colet_preluat" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="720" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UZetojyLB-9DZRHoAXMX-16" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.958;exitY=0.293;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UZetojyLB-9DZRHoAXMX-4" target="UZetojyLB-9DZRHoAXMX-15">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="670" y="440" as="sourcePoint" />
+            <mxPoint x="770" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZetojyLB-9DZRHoAXMX-17" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UZetojyLB-9DZRHoAXMX-15" target="UZetojyLB-9DZRHoAXMX-14">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="670" y="440" as="sourcePoint" />
+            <mxPoint x="770" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
