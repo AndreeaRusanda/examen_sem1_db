@@ -284,8 +284,6 @@ VALUES
 (99, 'Strada Pestalozzi - Strada Socrate', 3.2, 'Timisoara'),
 (100, 'Bulevardul Sudului - Strada Victor Gaga', 1.8, 'Timisoara');
 
-
----
 INSERT INTO masina 
 (curier_id, marca, model, an_fabricatie, culoare, nr_inmatriculare) 
 VALUES
