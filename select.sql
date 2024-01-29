@@ -23,10 +23,10 @@
 	select * from colet where ramburs = 0.00;
 	select * from colet where plata = 'card';
 	select * from colet where pret_transport > 30;
-	select avg(pret_transport), max(pret_total) from colet;
+	select * from colet where id = 45;
 	select awb, pret_total from colet where ramburs = 0.00 and plata = 'card';
 	select * from colet where plata = 'online' and pret_total > 150;
-	select count(*) from colet where pret_total > 300;
+	select * from colet where pret_total = 183.00;
 	select * from colet order by pret_total desc;
 	
 --- tabela curier
@@ -84,6 +84,9 @@
 	select * from masina;
 	select id as "ID", curier_id as "Numaru curier", marca as "Masina", nr_inmatriculare as "Numar de inmatriculare" from masina;
 	select * from masina where culoare = 'Rosu';
+	select * from masina where curier_id = 52;
+	select id from masina where nr_inmatriculare = 'TM96CAR';
+	select id from masina where model = 'A3' and culoare = 'Albastru';
 	select * from masina where marca = 'Dacia' and nr_inmatriculare like 'TM%';
 	select * from masina where an_fabricatie < 2016 or an_fabricatie > 2021;
 	select * from masina where model = 'Golf' and (culoare = 'Alb' or culoare = 'Negru');
@@ -97,9 +100,9 @@
 	select id as "ID", masina_id as "Nr. masina", combustibil as "Combustibil" from evidenta_combustibil;	
 	select * from evidenta_combustibil where combustibil = 'diesel';
 	select * from evidenta_combustibil where masina_id between 10 and 20;
+	select * from evidenta_combustibil where masina_id = 4;
 	select sum(km_parcursi) from evidenta_combustibil;
 	select * from evidenta_combustibil where masina_id = 1;
-	select count(*) from evidenta_combustibil;
 	select * from evidenta_combustibil where km_parcursi > 150;
 	select * from evidenta_combustibil where km_parcursi >= 200 and combustibil = 'benzina';
 	select * from evidenta_combustibil order by km_parcursi asc;
