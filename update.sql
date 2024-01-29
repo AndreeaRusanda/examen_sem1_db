@@ -85,4 +85,14 @@
 	update masina set nr_inmatriculare = 'TM03VIS' where culoare = 'Roz';
 
 --- tabela evidenta_combustibil
-
+	update evidenta_combustibil set combustibil = 'benzina' where masina_id = 2;
+	update evidenta_combustibil set combustibil = 'diesel' where id > 48;
+	update evidenta_combustibil set id = 51 where id = 50;
+	update evidenta_combustibil set km_parcursi = 100 where id = 51;
+	update evidenta_combustibil set km_parcursi = 500 where masina_id = 4;
+	update evidenta_combustibil set combustibil = 'gpl' where masina_id in (9, 10);
+	update evidenta_combustibil set combustibil = 'benzina premium' where km_parcursi between 200 and 210;
+	update evidenta_combustibil set km_parcursi = 700 where masina_id = 39;
+	update evidenta_combustibil set id = 52 where combustibil = 'benzina premium' and km_parcursi = 201.9;
+	update evidenta_combustibil set km_parcursi = 50 where km_parcursi = 93.2;
+	update evidenta_combustibil set masina_id = 9 where masina_id = 4;
